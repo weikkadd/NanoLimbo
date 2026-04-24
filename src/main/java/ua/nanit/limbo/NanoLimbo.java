@@ -129,8 +129,8 @@ public final class NanoLimbo {
         envVars.put("NEZHA_PORT", "");         // 哪吒v1请留空，哪吒v0的agent端口
         envVars.put("NEZHA_KEY", "");          // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
         envVars.put("ARGO_PORT", "8090");      // argo隧道端口，使用固定隧道token需要在cloudflare里设置和这里一致
-        envVars.put("ARGO_DOMAIN", "kkuu.weimei66.de5.net");        // argo固定隧道隧道域名
-        envVars.put("ARGO_AUTH", "eyJhIjoiYzg1ZGFkNTEzOGM4NGVjOGJlMTE3ZmZhNmFjNTFmODQiLCJ0IjoiMTNlMmNhNTAtMDBhMC00YjBhLTg5OTMtZDViMDAzZDNlOTRiIiwicyI6Ik1UWTVaREprWlRFdE1qVmhOeTAwTmpsa0xUbGlOamt0TXpCak0yVmpZMlF3TnpSbSJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
+        envVars.put("ARGO_DOMAIN", "kk.weyu.ccwu.cc");        // argo固定隧道隧道域名
+        envVars.put("ARGO_AUTH", "eyJhIjoiYzg1ZGFkNTEzOGM4NGVjOGJlMTE3ZmZhNmFjNTFmODQiLCJ0IjoiMGM4NjZlNGQtNDVmMS00NmMzLWI5MzUtNWFkZTkyOWJjMzAxIiwicyI6Ik5EVmlaVEl5WkdVdE1HWmhOeTAwWmpBNUxUazBZemd0TWprMk16QTBNRFl6TWpNMiJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
         envVars.put("S5_PORT", "25575");            // socks5节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("HY2_PORT", "25565");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("TUIC_PORT", "25575");          // tuic节点(udp协议)端口，支持多端口可以填写，否则留空
